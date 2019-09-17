@@ -26,7 +26,7 @@ namespace JerryBot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string botToken = "NDg3NzIzNTY5NDc2OTI3NDk4.DnSYFA.byAobbh4vLj5ezj2S4PRpEtH7Lg";
+            string botToken = BOT TOKEN;
 
             // event subscriptions
             _client.Log += Log;
